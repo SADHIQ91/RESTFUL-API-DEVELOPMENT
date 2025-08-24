@@ -1,0 +1,64 @@
+:
+
+📚 Example Outputs
+
+GET /books
+[
+  {
+    "book_id": 1,
+    "title": "The Alchemist",
+    "author": "Paulo Coelho"
+  },
+  {
+    "book_id": 2,
+    "title": "1984",
+    "author": "George Orwell"
+  },
+  {
+    "book_id": 3,
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee"
+  }
+]
+
+
+GET /books/1
+{
+  "book_id": 1,
+  "title": "The Alchemist",
+  "author": "Paulo Coelho"
+}
+
+{
+  "message": "Book added successfully",
+  "book": {
+    "book_id": 4,
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald"
+  }
+}
+PUT /books/2 (when updating a book)
+{
+  "message": "Book updated successfully",
+  "book": {
+    "book_id": 2,
+    "title": "Nineteen Eighty-Four",
+    "author": "George Orwell"
+  }
+}
+DELETE /books/3
+
+{
+  "message": "Book deleted successfully"
+}
+
+
+
+
+
+
+
+
+POST /books (when adding a new book)
+
+
