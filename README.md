@@ -22,3 +22,6 @@ Security is another crucial component of API library development. APIs often han
 Finally, developers rely on version control and deployment tools. Git and GitHub are standard for managing code changes, while CI/CD pipelines with tools like Jenkins, GitHub Actions, or GitLab CI ensure smooth deployment. Containerization with Docker and orchestration with Kubernetes make it easier to scale and manage APIs in production environments.
 
 In summary, API library development is a structured process that involves requirement analysis, framework selection, endpoint design, documentation, testing, and deployment. With the help of tools like FastAPI, Swagger, Postman, and Docker, developers can create powerful, scalable, and secure API libraries that enhance application functionality and foster seamless integration across systems.
+OUTPUT :
+
+[main.py.txt](https://github.com/user-attachments/files/21958761/main.py.txt)
